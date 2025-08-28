@@ -8,5 +8,6 @@ Run one of the included scripts to download images locally.
 - [Part 3 — Final Steps](part-3.md)
 
 ## Getting images
+
 - macOS/Linux: `bash fetch_images.sh`
 - Windows (PowerShell): `./fetch_images.ps1`
