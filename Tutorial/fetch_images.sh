@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p img
+echo "Downloading images to ./img ..."
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/Preview_Big.jpg' -o 'img/p1_Preview_Big.jpg'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/Join_Mesh_Before.png' -o 'img/Join_Mesh_Before.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/Limited_Dissolve.png' -o 'img/Limited_Dissolve.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/Add_to_Collection.png' -o 'img/Add_to_Collection.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/Textures_Overview.png' -o 'img/Textures_Overview.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/UV_Project_from_View.png' -o 'img/UV_Project_from_View.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-1/UV_Aligned_Texture.png' -o 'img/UV_Aligned_Texture.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Preview_Big.jpg' -o 'img/p2_Preview_Big.jpg'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Combine-Top-Bottom-Textures.png' -o 'img/Combine-Top-Bottom-Textures.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Texture-Group.png' -o 'img/Texture-Group.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Silkscreen-Material.png' -o 'img/Silkscreen-Material.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Soldermask-Material.png' -o 'img/Soldermask-Material.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Copper-Material.png' -o 'img/Copper-Material.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/MiddleLayer-Material.png' -o 'img/MiddleLayer-Material.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Combine-Materials.png' -o 'img/Combine-Materials.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Middle-Decider.png' -o 'img/Middle-Decider.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Calculate-Displacement.png' -o 'img/Calculate-Displacement.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-2/Final-Node-Setup.png' -o 'img/Final-Node-Setup.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Preview_Big.jpg' -o 'img/p3_Preview_Big.jpg'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Bevel_Node.png' -o 'img/Bevel_Node.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Unbeveled.png' -o 'img/Unbeveled.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Beveled.png' -o 'img/Beveled.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/RAM_IC_UV.png' -o 'img/RAM_IC_UV.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/RAM_IC_Material.png' -o 'img/RAM_IC_Material.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/RAM_IC_Displacement.png' -o 'img/RAM_IC_Displacement.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Enable_Denoising_and_AO.png' -o 'img/Enable_Denoising_and_AO.png'
+curl -L 'https://static.blog.pcb-arts.com/blender-tutorial-3/Compositor_Denoising.png' -o 'img/Compositor_Denoising.png'
+echo "Done."
